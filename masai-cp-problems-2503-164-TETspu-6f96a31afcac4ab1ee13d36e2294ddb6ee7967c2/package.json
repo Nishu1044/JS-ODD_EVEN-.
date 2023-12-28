@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": "16.16.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "automock": false,
+    "verbose": true,
+    "setupFiles": [
+      "<rootDir>/setupJest.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-fetch-mock": "^2.1.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "name": "masai-cp-problems-2503-164-tetspu-6f96a31afcac4ab1ee13d36e2294ddb6ee7967c2",
+  "description": "## Submission Instructions [Please note]",
+  "version": "1.0.0",
+  "main": "setupJest.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
